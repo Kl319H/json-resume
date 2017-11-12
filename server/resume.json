@@ -1,0 +1,264 @@
+{
+    "basics": {
+      "name": "Krista Sanchez",
+      "label": "Junior Web Developer",
+      "picture": "",
+      "email": "kleigh.sanchez@gmail.com",
+      "phone": "(303) 885-0745",
+      "website": "www.kristasanchez.com",
+      "summary": "Aspiring, self-­motivated Junior Front End Web Developer excited for opportunities to contribute her skills, and capabilities. Skilled in prioritizing and managing multiple tasks. Eager to deploy new technologies and best practices. Interested in responsive design and problem solving to provide exceptional user support and user experience. Fast learner, hard worker and a team player, with excellent communication skills.",
+      "location": {
+        "address": "800 Nelson Park Drive",
+        "postalCode": "CO 80503",
+        "city": "Longmont",
+        "countryCode": "US",
+        "region": "Colorado"
+      },
+      "profiles": [
+        {
+          "network": "Github",
+          "username": "kl319h",
+          "url": "https://github.com/Kl319H"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "kristasanchez",
+          "url": "https://www.linkedin.com/in/kristasanchez/"
+        },
+        {
+          "network": "Twitter",
+          "username": "kl319h",
+          "url": "https://twitter.com/kl319h"
+        }
+      ]
+    },
+    "work": [],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "Udacity",
+        "area": "Front End Web Developer",
+        "studyType": "Nano Degree",
+        "startDate": "2016-05-01",
+        "endDate": "2017-05-01",
+        "gpa": "",
+        "courses": [
+          "Google Maps API",
+          "HTML5 Canvas",
+          "How to Use Git and Github",
+          "Intro to JQuery",
+          "Intro to AJAX",
+          "Intro to HTML and CSS",
+          "Intro to JavaScript",
+          "JavaScript Basics",
+          "Object Oriented JavaScript",
+          "Responsive Images",
+          "Responsive Web Design Fundamentals",
+          "Website Performance Optimizatization",
+          "Writing Test Suites"
+        ]
+      },
+      {
+        "institution": "edX",
+        "area": "W3Cx: HTML5.0x HTML5 and CSS Fundamentals",
+        "studyType": "Certificate",
+        "startDate": "2017-07-01",
+        "endDate": "2017-08-01",
+        "gpa": "",
+        "courses": [
+          "5 Modules"
+        ]
+      },
+      {
+        "institution": "wesbos.com",
+        "area": "Web Development",
+        "studyType": "Certificate",
+        "startDate": "2017-08-16",
+        "endDate": "Present",
+        "gpa": "",
+        "courses": [
+          "What The Flexbox",
+          "JavaScript 30"
+        ]
+      },
+      {
+        "institution": "Tree House",
+        "area": "Web Development",
+        "studyType": "JavaScript Basics",
+        "startDate": "2017-09-01",
+        "endDate": "Present",
+        "gpa": "",
+        "courses": [
+          "Introducing JavaScript",
+          "JavaScript Basics",
+          "JavaScript Loops, Arrays and Objects",
+          "defining variables with Let and Const",
+          "Introducing Arrow Function Syntax",
+          "Introducing Template Literals",
+          "JavaScript and the DOM",
+          "DOM scripting by Example",
+          "Inrto to JQuery",
+          "Using JQuery Plugins"
+        ]
+      }
+    ],
+    "awards": [],
+    "projects": [
+      {
+        "name": "Neighborhood Map",
+        "publisher": "Github",
+        "releaseDate": "2017-05-01",
+        "website": "https://github.com/Kl319H/neighborhood-map",
+        "summary": "A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of interest. Users can search all included landmarks and, when selected, additional information about a landmark is presented from the OpenWeatherMap API."
+      },
+      {
+        "name": "Feed Reader Testing",
+        "publisher": "Githib",
+        "releaseDate": "2017-05-17",
+        "website": "https://github.com/Kl319H/frontend-nanodegree-feedreader",
+        "summary": "Wrote comprehensive unit tests, using the Jasmine testing framework, for an RSS Feed Reader application that uses Google's RSS API."
+      },
+      {
+        "name": "Classic Arcade Game Clone",
+        "publisher": "Github",
+        "releaseDate": "2016-07-03",
+        "website": "https://github.com/Kl319H/frontend-nanodegree-arcade-game",
+        "summary": "An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript."
+      },
+      {
+        "name": "Windward Snack App",
+        "publisher": "Github",
+        "releaseDate": "2017-09-14",
+        "website": "https://github.com/Kl319H/windward-snack-app",
+        "summary": "I have to buy snacks for work & everything was tracked on paper. I decided to create a snack app, so that the employees can choose the things they like or dislike. This is still a work in progress, with many features to be added. This uses JavaScript, HTML, CSS, Bootstrap, Font Awesome, Meteor, and Mongo."
+      },
+      {
+        "name": "MWG Home Inspections",
+        "publisher": "Github",
+        "releaseDate": "2017-10-22",
+        "website": "http://mwghomeinspections.com",
+        "summary": "My first website for a client. He wanted responsive, mobile friendly & clean. I got no other direction. I had to design, write the content and develop the front end and back end. This uses  MeteorJS, Bootstrap and Font Awesome. It is hosted on an AWS instance & I used Meteor Mup to deploy."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Languages / Programming",
+        "level": "",
+        "keywords": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "JSON"
+        ]
+      },
+      {
+        "name": "Platforms",
+        "level": "",
+        "keywords": [
+          "MeteorJs",
+          "NodeJs",
+          "AWS"
+        ]
+      },
+      {
+        "name": "Libraries",
+        "level": "",
+        "keywords": [
+          "JQuery",
+          "KnockoutJS",
+          "Mustache",
+          "Handlebars",
+          "Material",
+          "Font Awesome",
+          "Swiper"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "level": "",
+        "keywords": [
+          "Bootstrap",
+          "Phaser"
+        ]
+      },
+      {
+        "name": "Package Managers / Task Runners / Tools",
+        "level": "",
+        "keywords": [
+          "GulpJs",
+          "Grunt",
+          "nmp"
+        ]
+      },
+      {
+        "name": "Test Suites",
+        "level": "",
+        "keywords": [
+          "Jasmine"
+        ]
+      },
+      {
+        "name": "Editors / IDEs",
+        "level": "",
+        "keywords": [
+          "Atom",
+          "VS Code",
+          "Webstorm"
+        ]
+      },
+      {
+        "name": "Version Control",
+        "level": "",
+        "keywords": [
+          "Git"
+        ]
+      },
+      {
+        "name": "Project Management",
+        "level": "",
+        "keywords": [
+          "Jira",
+          "Visual Studio Team Services (VSO)"
+        ]
+      },
+      {
+        "name": "Collaboration Tools",
+        "level": "",
+        "keywords": [
+          "Slack",
+          "Trello"
+        ]
+      },
+      {
+        "name": "Operating Systems",
+        "level": "",
+        "keywords": [
+          "Ubuntu",
+          "Windows"
+        ]
+      },
+      {
+        "name": "Databases",
+        "level": "",
+        "keywords": [
+          "Mongo"
+        ]
+      },
+      {
+        "name": "Software",
+        "level": "",
+        "keywords": [
+          "Adobe Creative Suite",
+          "Microsoft Office Suite"
+        ]
+      }
+    ],
+    "languages": [],
+    "interests": [],
+    "references": [
+      {
+        "name": "Derrick Gremillion",
+        "reference": "It is my pleasure to recommend Krista Sanchez, her hard work, studies & desire to learn proved that she will be a valuable addition to any company."
+      }
+    ]
+  }

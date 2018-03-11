@@ -1,20 +1,18 @@
-//ssh -i ~/.ssh/unk.pem ubuntu@35.160.53.49
+//ssh root@159.65.70.35
+//docker exec -it mongodb mongo mwg-home-inspections
+//mup logs -f
 
 module.exports = {
   servers: {
     one: {
-      // TODO: set host address, username, and authentication method
-      host: '35.160.53.49',
-      username: 'ubuntu',
-      pem: '~/.ssh/unk.pem'
-      // password: 'server-password'
-      // or neither for authenticate from ssh-agent
+      host: '159.65.70.35',
+      username: 'root',
+      pem: '~/.ssh/id_rsa'
     }
   },
 
   app: {
-    // TODO: change app name and path
-    name: 'app',
+    name: 'krista-sanchez',
     path: '../',
 
     servers: {
@@ -29,33 +27,27 @@ module.exports = {
       // TODO: Change to your app's url
       // If you are using ssl, it needs to start with https://
       ROOT_URL: 'https://kristasanchez.com',
-      MONGO_URL: 'mongodb://localhost/app',
+      MONGO_URL: 'mongodb://localhost/krista-sanchez',
     },
-
-    ssl: { // (optional)
-      // Enables let's encrypt (optional)
-      autogenerate: {
-        email: 'kleigh.sanchez@gmail.com',
-        // comma separated list of domains
-        domains: 'kristasanchez.com'
-      },
-      port: 443
-    },
-
     docker: {
       // change to 'abernix/meteord:base' if your app is using Meteor 1.4 - 1.5
       image: 'abernix/meteord:node-8.4.0-base',
     },
-
     // Show progress bar while uploading bundle to server
     // You might need to disable it on CI servers
     enableUploadProgressBar: true
   },
-
   mongo: {
     version: '3.4.1',
     servers: {
       one: {}
     }
-  }
+  },
+  proxy: { // (optional)
+    domains: 'kristasanchez.com,www.kristasanchez.com',
+    ssl: {
+      letsEncryptEmail: 'kleigh.sanchez@gmail.com',
+      forceSSL: true 
+    },
+  },
 };
